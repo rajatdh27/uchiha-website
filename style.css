@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  background: linear-gradient(45deg, #000, #555);
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  max-width: 3rem;
+  max-height: 5rem;
+}
+
+header {
+  top: 0;
+  padding: 0.3rem 1rem 0;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  width: 100vw;
+  align-items: center;
+}
+
+.nabar-items {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: -2rem;
+}
+
+.content {
+  height: calc(100%-3rem);
+  width: 100vw;
+  margin-top: 3rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.uchiha-img {
+  height: 80vh;
+  width: 32vw;
+  min-height: 30rem;
+  min-width: 10rem;
+}
+
+.uchiha-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.about-text {
+  display: flex;
+  color: #fff;
+  height: 80vh;
+  width: 60vw;
+  /* align-items: center; */
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.about-text .name {
+  margin: 0 3.1rem;
+  font-size: 1.2rem;
+  margin-top: -2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+}
+
+.about-text .qoute {
+  font-size: 1.4rem;
+  margin: 0 3rem;
+  line-height: 1.7rem;
+}
+
+.about-text .qoute .quote-text {
+  display: inline;
+}
+
+.about-text .qoute .quote-highlight {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+}
+
+.about-text button {
+  margin: 0 3rem;
+  color: #fff;
+  background-color: transparent;
+  font-size: 1.1rem;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 6rem;
+  border: 1px solid #fff;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.about-text button:hover {
+  transform: scale(1.1);
+}
